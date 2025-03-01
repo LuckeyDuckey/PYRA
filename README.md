@@ -78,10 +78,6 @@ A comprehensive example script is included in the repository. It demonstrates ho
 
 ## Disclaimer
 
-Sure! Here’s a clearer and more polished version of your disclaimer:  
-
----
-
 This project was originally created for my personal use and will be expanded over time as I incorporate it into more of my projects, adding features as needed. However, since it was designed specifically for me, the documentation may be lacking, and the overall usability might not be the most intuitive.  
 
 If you're unsure about how something works, I recommend checking the source code or referring to the built-in docstrings. You can view them directly in the source files or by using Python’s `help()` function (e.g., `help(function_name)` or `help(ClassName)`).  
