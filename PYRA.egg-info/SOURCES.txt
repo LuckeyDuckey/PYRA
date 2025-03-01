@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+PYRA/VectorMathClass.py
+PYRA/__init__.py
+PYRA.egg-info/PKG-INFO
+PYRA.egg-info/SOURCES.txt
+PYRA.egg-info/dependency_links.txt
+PYRA.egg-info/requires.txt
+PYRA.egg-info/top_level.txt
