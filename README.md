@@ -10,10 +10,10 @@ PYRA is a lightweight UI library built on top of pygame-ce for creating clean, m
 
 ## Installation
 
-PYRA is available as a package on PyPI. You can install it using pip:
+To install the project as a package simply run:
 
 ```bash
-pip install pyra
+pip install git+https://github.com/LuckeyDuckey/PYRA.git
 ```
 
 ## Basic Usage
