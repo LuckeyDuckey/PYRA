@@ -2,7 +2,7 @@
 
 [![python 3.8](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/) [![pygame-ce 2.5.2](https://img.shields.io/badge/pygamece-2.5.2-green)](https://www.pygame.org/wiki/about)
 
-PYRA is a lightweight UI library built on top of pygame-ce for creating clean, modern user interfaces. It’s designed to simplify UI development by using parameter objects to define element properties, layout, and animations—all while keeping your code neat and flexible.
+PYRA (Pygame Rendering Assistant) is a lightweight UI library built on top of pygame-ce for creating clean, modern user interfaces. It’s designed to simplify UI development by using parameter objects to define element properties, layout, and animations—all while keeping your code neat and flexible.
 
 **Note:** This project was originally developed for my own use and isn’t built with usability in mind. I decided to open-source it for anyone interested in experimenting with its features.
 
