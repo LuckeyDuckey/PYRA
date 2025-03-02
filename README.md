@@ -32,16 +32,15 @@ Each UI element is created by passing in the appropriate parameter objects. For 
 ```python
 Button = PYRA.ButtonElement(
     PositionParameters = PYRA.PositionParameters(
-        Position = PYRA.Vec2([50, 50])
+        Position = PYRA.Vec2([50, 50]),
     ),
     ContainerParameters = PYRA.ContainerParameters(
         Resolution = PYRA.Vec2([100, 50]),
         Color = [255, 255, 255],
-        CornerRadius = 5,
     ),
     ButtonParameters = PYRA.ButtonParameters(
-        Callback = lambda: print("Button Clicked!")
-    )
+        Callback = lambda: print("Button Clicked!"),
+    ),
 )
 ```
 
@@ -58,22 +57,23 @@ A core concept in PYRA is the **ContainerElement**, which acts as a parent for g
 For instance, a container with a horizontal layout might be set up like this:
 
 ```python
-container = PYRA.ContainerElement(
-    PositionParameters=PYRA.PositionParameters(Position=PYRA.Vec2([15, 15])),
+Container = PYRA.ContainerElement(
+    PositionParameters=PYRA.PositionParameters(
+        Position=PYRA.Vec2([50, 50]),
+    ),
     ContainerParameters=PYRA.ContainerParameters(
-        Resolution=PYRA.Vec2([750, 75]),
-        Color=[43, 44, 48],
-        CornerRadius=5,
+        Resolution=PYRA.Vec2([250, 250]),
+        Color=[255, 255, 255],
     ),
     ChildElementsParameters=PYRA.ChildElementsParameters(
         ChildElements=[
             # Add your UI elements (e.g., buttons, icons) here
         ],
         Direction="Horizontal",
-        Padding=[15, 15, 15, 15]
-    )
+        Padding=[15, 15, 15, 15],
+    ),
 )
-container.CalculateChildPositions()
+Container.CalculateChildPositions()
 ```
 
 ## Demo Script
