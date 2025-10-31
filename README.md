@@ -58,19 +58,19 @@ For instance, a container with a horizontal layout might be set up like this:
 
 ```python
 Container = PYRA.ContainerElement(
-    PositionParameters=PYRA.PositionParameters(
-        Position=PYRA.Vec2([50, 50]),
+    PositionParameters = PYRA.PositionParameters(
+        Position = PYRA.Vec2([50, 50]),
     ),
-    ContainerParameters=PYRA.ContainerParameters(
-        Resolution=PYRA.Vec2([250, 250]),
-        Color=[255, 255, 255],
+    ContainerParameters = PYRA.ContainerParameters(
+        Resolution = PYRA.Vec2([250, 250]),
+        Color = [255, 255, 255],
     ),
-    ChildElementsParameters=PYRA.ChildElementsParameters(
-        ChildElements=[
+    ChildElementsParameters = PYRA.ChildElementsParameters(
+        ChildElements = [
             # Add your UI elements (e.g., buttons, icons) here
         ],
-        Direction="Horizontal",
-        Padding=[15, 15, 15, 15],
+        Direction = "Horizontal",
+        Padding = [15, 15, 15, 15],
     ),
 )
 Container.CalculateChildPositions()
@@ -78,13 +78,13 @@ Container.CalculateChildPositions()
 
 ## Demo Script
 
-A comprehensive example script is included in the repository. It demonstrates how to assemble various UI elements—including navigation bars, text containers, and input fields—using PYRA’s parameter objects and containers. Check out the `Examples/Basic.py` file for a complete walkthrough.
+A comprehensive example script is included in the repository. It demonstrates how to assemble various UI elements (including navigation bars, text containers, and input fields) using PYRA’s parameter objects and containers. Check out the `Examples/Basic.py` file for a complete walkthrough.
 
 ## Disclaimer
 
 This project was originally created for my personal use and will be expanded over time as I incorporate it into more of my projects, adding features as needed. However, since it was designed specifically for me, the documentation may be lacking, and the overall usability might not be the most intuitive.  
 
-If you're unsure about how something works, I recommend checking the source code or referring to the built-in docstrings. You can view them directly in the source files or by using Python’s `help()` function (e.g., `help(function_name)` or `help(ClassName)`).  
+If you're unsure about how something works, I recommend checking the source code or referring to the built in docstrings. You can view them directly in the source files or by using Python’s `help()` function (e.g., `help(function_name)` or `help(ClassName)`).  
 
 That said, if you're interested in improving PYRA, contributions and feedback are always welcome!
 
